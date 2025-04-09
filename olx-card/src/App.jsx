@@ -44,7 +44,7 @@ const App = () => {
                 gap: '10px'
             }}>
                 {products && products.map(item => {
-                    return <Card key={item.id} title={item.title} image={item.thumbnail} description = {item.description} />
+                    return <Card key={item.id} title={item.title} image={item.thumbnail} description={item.description} />
                 })}
             </div>
         </>
