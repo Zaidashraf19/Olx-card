@@ -35,6 +35,7 @@ const App = () => {
     return (
         <>
             <Navbar />
+            <h1 className='text-center font-extrabold text-4xl underline'>PRODUCTS</h1> <br /><br />
             <div style={{
                 display: 'flex',
                 justifyContent: 'center',
